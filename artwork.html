@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<!--<!doctype html>-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.82.0">
+    <link rel="icon" type="image/gif" href="img/arlosite-favicon.png">
+    <title>Arlosite</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.css">    
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Link to the file hosted on your server, -->
+    <link rel="stylesheet" href="path-to-the-file/splide.min.css">
+
+    <!-- or the one installed in node_modules directory, -->
+    <link rel="stylesheet" href="node_modules/@splidejs/splide/dist/css/splide.min.css">
+
+    <!-- or the reference on CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="css/arlosite.css" rel="stylesheet">
+
+  </head>
+    <style type="text/css">
+      #project {
+        margin-bottom: 100px;
+      }
+      #tabmenu {
+        margin-bottom: 50px; 
+        text-align: center; 
+        display: block; 
+        margin-right: auto; 
+        margin-left: auto; 
+        width: 80%; 
+        color: rgba(255, 255, 255, 0.25);
+      }
+      #tabmenu a {
+        transition: 0.3s;
+      }
+      #tabmenu a:hover {
+        color: rgba(255, 255, 255, 0.5);
+        transform: scale(1.03);
+      }
+      #tabmenu a.active {
+        transform: scale(1.03);
+        color: white;
+        border-bottom: 1px solid white;
+      }
+    </style>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="navbar">
+        <div class="container-fluid">
+          <!--<a class="navbar-brand" href="index.html"><b>Arlosite</b></a>-->
+          <img src="img/arlositelogo.png" href="index.html" style="width: 130px; text-align: left; padding-left: 20px">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="topnav-right" id="navbar-menu">
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="artwork.html">Artwork</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="mailto:ariadwitolio@gmail.com target="_blank"">Contact</a>
+                </li>
+              </ul>                
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="navbar-mobile">
+      <a href="index.html">Home</a>
+      <a href="artwork.html" class="actives">Artwork</a>
+      <a href="mailto:ariadwitolio@gmail.com target="_blank"">Contact</a>
+    </div>
+     <div class="container" id="project">
+      <div>
+        <h2><b> Artwork </b></h2>
+      </div>
+      <div class="row">
+        <div class="col-sm-6" id="project-list">
+          <a class="image" href="https://play.google.com/store/apps/details?id=com.varx.smti" target="_blank">
+            <img src="img/project-1.png">
+          </a>
+        </div>
+        <div class="col-sm-6" id="project-list">
+          <a class="image" href="https://play.google.com/store/apps/details?id=com.varx.dbsbank" target="_blank">
+            <img src="img/project-2.png">
+          </a>
+        </div>
+        <div class="col-sm-6" id="project-list">
+          <a class="image" href="https://play.google.com/store/apps/details?id=com.gmedia.fiberstream_agent" target="_blank">
+            <img src="img/project-4.png">
+          </a>
+        </div>
+        <div class="col-sm-6" id="project-list">
+          <a class="image" href="https://play.google.com/store/apps/details?id=com.gmedia.fiberstream_customer_mobile" target="_blank">
+            <img src="img/project-3.png">
+          </a>
+        </div>
+        <div class="col-sm-6" id="project-list">
+          <a class="image" href="https://play.google.com/store/apps/details?id=com.varx.cfsmobile" target="_blank">
+            <img src="img/project-5.png">
+          </a>
+        </div>
+        <div class="col-sm-6" id="project-list">
+          <a class="image" href="https://play.google.com/store/apps/details?id=com.varx.sman2bantul" target="_blank">
+            <img src="img/project-6.png">
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="js/splide/splide.min.js"></script>
+    <!-- <div class="container"><hr></div> -->
+    <!-- FOOTER -->
+    <div id="footer">
+      <footer>
+      <h3><b>Get in touch</b></h3>
+      <div class="row" id="sosmed">
+          <a href="https://www.linkedin.com/in/aria-dwitolio-b21988155/" target="_blank"><img src="img/linkedin.png"></a>
+          <a href="mailto:ariadwitolio@gmail.com" target="_blank"><img src="img/mail.png"></a>
+          <a href="https://api.whatsapp.com/send?phone=+6288223551945" target="_blank"><img src="img/wa.png"></a>
+          <a href="https://drive.google.com/drive/folders/1hHiHtPzj1meSrLBcQJSfllWxML1TbzqR" target="_blank"><img src="img/doc-v2.png"></a>
+          <!--<a href=""><img src="img/yt.png"></a>
+          <a href=""><img src="img/ig.png"></a>
+          <a href=""><img src="img/dribbble.png"></a>-->
+      </div>
+      <p style="opacity: 50%">&copy; Arlosite by Aria Dwitolio</p>
+    </footer> 
+    </div>
+
+
+    <script type="text/javascript">
+      window.onscroll = function() {scrollFunction()};
+        
+      function scrollFunction() {
+        if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+          document.getElementById("navbar").style.padding = "20px 40px";
+          document.getElementById("navbar").style.backgroundColor = "rgba( 20, 20, 50, 0.50 )";
+          document.getElementById("navbar").style.backdropFilter = "blur( 25px )";
+          document.getElementById("navbar").style.color = "#ffff";
+          document.getElementById("logo").style.fontSize = "25px";
+          document.getElementById("myBtn").style.display = "block";
+        } else {
+          document.getElementById("navbar").style.padding = "40px";
+          document.getElementById("navbar").style.backgroundColor = "transparent";
+          document.getElementById("logo").style.fontSize = "35px";
+          document.getElementById("myBtn").style.display = "hidden";
+        }
+      }
+
+      document.addEventListener( 'DOMContentLoaded', function () {
+        new Splide( '#image-slider', {
+          type        : 'loop',
+          perPage     : 1,
+          autoplay    : true,
+          pauseOnHover: false,
+        }).mount();
+      });
+    </script>
+
+
+  </body>
+</html>
